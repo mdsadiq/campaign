@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-size: 1rem;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.app-header {
+  background-color: #e3f2fd;
+  border-bottom: 1px solid #e3f2fd;
+  padding: 4px;
+  padding-left: 16px;
+  text-align: left;
+}
+
+.top-bar {
+  padding: 8px;
+  padding-left: 16px;
+  background-color: #fff;
+  text-align: left;
+  border-bottom: 1px solid gainsboro;
+}
+
+.history {
+  background-color: #e3f2fd;
+}
+
+.campaign-list {
+  display: flex;
+}
+.info-container {
+  display: flex;
+  padding: 16px;
+  border-bottom: 1px solid gainsboro;
+  align-items: center;
+}
+.info-container:hover{
+  background-color:  #e3f2fd;
+}
+.info-item {
+  padding: 0px 24px;
+}
+
+.history-item {
+  padding: 24px
+}
